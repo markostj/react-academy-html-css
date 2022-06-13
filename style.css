@@ -46,7 +46,7 @@ footer {
 .wrapper {
   max-width: 1000px;
   margin: 0 auto;
-  /* width: 100%; */
+  width: 100%;
   /* padding: 20px 20px; */
 }
 
@@ -102,8 +102,8 @@ footer {
 }
 
 .container__element img {
-  width: 240px;
-  height: 180px;
+  max-width: 240px;
+  max-height: 180px;
   border-radius: 4px;
 }
 
@@ -120,6 +120,7 @@ footer {
   list-style: none;
   text-transform: uppercase;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   gap: 12px;
 }
