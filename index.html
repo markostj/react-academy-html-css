@@ -7,40 +7,47 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="wrapper">
-      <div class="container">
-        <div class="header-logo">
-          <p>STYLES</p>
-          <p>CONFERENCE</p>
+    <header>
+      <div class="wrapper">
+        <div class="container">
+          <div class="header-logo">
+            <p>STYLES</p>
+            <p>CONFERENCE</p>
+          </div>
+          <div class="container-col">
+            <p class="text--green">August 24th-26th — Chicago, IL</p>
+            <nav class="navbar">
+              <ul class="navbar__list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Speakers</a></li>
+                <li><a href="#">Schedule</a></li>
+                <li><a href="#">Venue</a></li>
+                <li><a href="#">Register</a></li>
+              </ul>
+            </nav>
+          </div>
         </div>
-        <nav class="navbar">
-          <ul class="navbar__list">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Speakers</a></li>
-            <li><a href="#">Schedule</a></li>
-            <li><a href="#">Venue</a></li>
-            <li><a href="#">Register</a></li>
-          </ul>
-        </nav>
+        <section>
+          <p class="hero-caption">
+            Dedicated to the Craft of Building Websites
+          </p>
+          <p class="hero-text">
+            Every year the brightest web designers and front-end developers
+            descend on
+          </p>
+          <p class="hero-text">
+            Chicago to discuss the latest tech logies. Join us this August!
+          </p>
+          <button class="hero-button">Register Now</button>
+        </section>
       </div>
     </header>
-    <section class="wrapper">
-      <p class="hero-caption">Dedicated to the Craft of Building Websites</p>
-      <p class="hero-text">
-        Every year the brightest web designers and front-end developers descend
-        on
-      </p>
-      <p class="hero-text">
-        Chicago to discuss the latest tech logies. Join us this August!
-      </p>
-      <button class="hero-button">Register Now</button>
-    </section>
     <main class="wrapper">
-      <div class="container">
+      <div class="container__main">
         <div class="container__element">
-          <p class="text--uppercase text--sizesmall">Speakers</p>
+          <p class="text--uppercase text--small">Speakers</p>
           <img src="assets/speakers.jpeg" alt="speakers" />
-          <p class="text--green text--bold text--sizemedium">
+          <p class="text--green text--bold text--medium">
             World-Class Speakers
           </p>
           <p class="text--small">
@@ -49,28 +56,44 @@
           </p>
         </div>
         <div class="container__element">
-          <p class="text--uppercase text--sizesmall">Schedule</p>
-          <img src="assets/speakers.jpeg" alt="inspiring" />
-          <p class="text--green text--bold text--sizemedium">
+          <p class="text--uppercase text--small">Schedule</p>
+          <img src="assets/schedule.jpeg" alt="inspiring" />
+          <p class="text--green text--bold text--medium">
             Three Inspiring Days
           </p>
-          <p class="text--sizesmall">
-            Enjoy three inspiring and action-packed days of tals, gatherings, and
-            all-around good times.
+          <p class="text--small">
+            Enjoy three inspiring and action-packed days of tals, gatherings,
+            and all-around good times.
           </p>
         </div>
         <div class="container__element">
-          <p class="text--uppercase text--sizesmall">Venue</p>
+          <p class="text--uppercase text--small">Venue</p>
           <img src="assets/venue.jpeg" alt="chicago" />
-          <p class="text--green text--bold text--sizemedium">
-            The Chicago Theatre
-          </p>
-          <p class="text--sizesmall">
-            Within the heart of downtown Chicago, The Chicago Theatre will provide
-            a beautiful conference venue.
+          <p class="text--green text--bold text--medium">The Chicago Theatre</p>
+          <p class="text--small">
+            Within the heart of downtown Chicago, The Chicago Theatre will
+            provide a beautiful conference venue.
           </p>
         </div>
       </div>
     </main>
+    <footer>
+      <div class="wrapper">
+        <div class="container">
+          <div class="text--green text--small">
+            <p>©Styles Conference</p>
+          </div>
+          <nav class="navbar">
+            <ul class="navbar__list text--footer">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Speakers</a></li>
+              <li><a href="#">Schedule</a></li>
+              <li><a href="#">Venue</a></li>
+              <li><a href="#">Register</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
